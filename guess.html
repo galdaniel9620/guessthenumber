@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess.css">
+    <script src="guess.js" defer></script>
+    <title>Guess the number</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <p id="textTitle">Guess the number:</p>
+    </header>
+
+    <section>
+        <div class="position">
+            <div><p  id="guessNumber"class="text"></p></div>
+        </div>
+
+        <div class="position">
+            <div><p id="randomNumber"  class="text" ></p></div>
+        </div>
+    </section>
+
+    <footer>
+            <input type="number" min="1" max="100" id="inputValue">
+            <input type="submit" id="submit">
+    </footer>
+</body>
+</html>
